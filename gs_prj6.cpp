@@ -40,7 +40,7 @@ int main(){
 
 int decode_year(const char year){
 
-  return 64 - year + 1995;
+  return 64 - year - 1995;
 }
 
 int decode_digit(const char day){
